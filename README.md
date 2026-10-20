@@ -24,6 +24,23 @@ Para ejecutar el programa:
 ./img_equalization <../data/ejemplo.jpg> <salida.jpg>
 ```
 
+
+### Modo interactivo
+
+El programa dispone de un modo interactivo que se activa mediante el argumento `-i`.
+
+Este modo permite visualizar los resultados y ajustar los parámetros del balance de color de forma interactiva, facilitando la comparación de los diferentes resultados.
+
+Para activarlo, añadir `-i` a los argumentos de ejecución:
+
+```bash
+
+./color_balance -i <../data/ejemplo.jpg> <salida.jpg>
+
+```
+
+En caso de necesitar una imagen de entrada, se deben proporcionar también los argumentos correspondientes.
+
 ## Requisitos
 
 - C++
